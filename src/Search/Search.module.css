@@ -1,6 +1,7 @@
-.search {
+.container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .searchInputs {
@@ -9,7 +10,7 @@
   justify-content: center;
 }
 
-.search input {
+.container input {
   background-color: white;
   border: 0;
   border-radius: 2px;
@@ -33,6 +34,8 @@ input:focus {
   outline: none;
 }
 .searchIcon svg {
+  width: 30%;
+  height: 30px;
   font-size: 35px;
   display: flex;
   justify-content: center;

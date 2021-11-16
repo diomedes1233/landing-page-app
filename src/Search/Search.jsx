@@ -25,7 +25,7 @@ function Search({ placeholder, data }) {
     setWordEntered('')
   }
   return (
-    <div className={styles.search}>
+    <div className={styles.container}>
       <div className={styles.searchInputs}>
       <div className={styles.searchInputs}>
         <input
@@ -34,7 +34,7 @@ function Search({ placeholder, data }) {
           value={wordEntered}
           onChange={handleFilter}
         />
-        <div className="searchIcon">
+        <div className="searchIcon width: 30%; height: 30px;">
           {filteredData.length === 0 ? (
             <FaSearch />
           ) : (
