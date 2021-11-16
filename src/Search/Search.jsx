@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Search.module.css'
+import styles from '../Search/Search.module.css'
 import { FaSearch, FaWindowClose } from 'react-icons/fa'
 
 function Search({ placeholder, data }) {
@@ -25,8 +25,9 @@ function Search({ placeholder, data }) {
     setWordEntered('')
   }
   return (
-    <div className="search">
-      <div className="searchInputs">
+    <div className={styles.search}>
+      <div className={styles.searchInputs}>
+      <div className={styles.searchInputs}>
         <input
           type="text"
           placeholder={placeholder}
@@ -52,6 +53,7 @@ function Search({ placeholder, data }) {
           })}
         </div>
       )}
+    </div>
     </div>
   )
 }

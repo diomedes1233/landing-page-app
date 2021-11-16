@@ -5,6 +5,9 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <h1>50 RETOS</h1>
+      <nav>
+        
+      </nav>
     </div>
   )
 }
